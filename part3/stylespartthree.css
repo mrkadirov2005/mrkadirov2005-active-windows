@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  background-image: repeating-linear-gradient(#252420,#191611,brown,red,yellow);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+color: white;
+}
+button{
+  display: none;
+  background-color:coral;
+  border: 0ch;
+  padding: 20px;
+}
+.instructions{
+display: block;
+}
+.title{
+  display: none;
+}
+.quizone{
+  display: none;
+
+}
+.quiztwo{
+  display: none;
+}
+
+.butons{
+  background-color: red;
+
+}
+#part4{
+  display: none;
+}
+button{
+  border-radius: 50%;
+}
